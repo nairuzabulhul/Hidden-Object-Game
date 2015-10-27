@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hidden Object</title>
+
+	<!--Style of the game -->
+	<style type="text/css">
+
+		#header{
+			height: 83px;
+			width: 588px;
+			position: fixed;
+			top: 15px;
+			left: 650px;
+			background-image: url("images/header1.jpg");
+			border-radius: 5px;
+
+		}
+
+
+		#time_div p{
+			padding-left: 130px;
+			padding-top: 50px;
+			font-weight: bold;
+			font-size: 25px;
+			font-family: Verdana;
+		}
+
+
+		#timer {
+			height: 350px;
+			width: 250px;
+			position: fixed;
+			background-image: url("images/timer.jpg");
+			background-repeat: no-repeat;
+			background-color: none;
+			top:115px;
+			left: 50px;
+		}
+
+
+		#user_time {
+			padding-left: 140px;
+			padding-top: 270px;
+			font-weight: bold;
+			font-family: Verdana;
+			font-family: 25px;
+		}
+
+		
+
+
+		#best_time{
+			padding-left: 80px;
+			font-family: Verdana;
+			font-weight: bold;
+			font-weight: 20px;
+		}
+
+
+		#average_time{
+
+			padding-left: 80px;
+			font-family: Verdana;
+			font-weight: bold;
+			font-weight: 20px;
+		}
+
+
+		#copyRight{
+			padding-left: 790px;
+			padding-top: 275px;
+			font-family: Verdana;
+			font-weight: bold;
+			font-style: italic;
+			font-size: 12px;
+		}
+
+		#copyRight a{
+			color: #2B2C27;
+		}
+
+		#copyRight a:hover {
+			color: #AA3B0C;
+			font-size: 25px;
+		}
+
+		body{
+			background-color: #A18F77;
+		}
+
+
+		#background_image{
+
+			background-image: url("images/background1.jpg");
+			position: fixed;
+			width: 1000px;
+			height: 780px;
+			top: 115px;
+			left: 450px;
+			border-radius: 15px;
+
+		}
+
+
+		#img{
+			background-color: none;
+			background-repeat: no-repeat;
+			display: none;
+			border-radius: 15px;
+		}
+
+
+
+
+	</style>
+</head>
+
+
+<!--Body of the game -->
+<body>
+
+	<div id="header"> </div>
+	<div id="time_div"><p>TIME</p></div>
+	<div id="timer"> </div>
+	<p id="user_time">0.00s</p>
+	<p id="best_time"> Best Time : <span id="bestScore">0.00</span>s</p>
+	<p id="average_time">Average Time : <span id="Average">0.00</span>s</p>
+
+	<div id="background_image"></div>
+
+	<div id="img"></div>
+	<div id="copyRight">Nairuz Abulhul &copy; 2015 <span>&rarr;</span> <span><a href="https://github.com/ZeeMax" target="_blank">GitHub</a></span></div>
+
+
+
+	<!--Javascript file named game_script-->
+	<script src="game_script.js"></script>
+
+</body>
+</html>
