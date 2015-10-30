@@ -1,5 +1,5 @@
 # ReadME
 
-[!Log] (http://i.imgur.com/No9RFSh.jpg)
+![Log] (http://i.imgur.com/No9RFSh.jpg)
 
 Link : 
