@@ -1,5 +1,3 @@
 # ReadME
 
-![Log] (http://i.imgur.com/No9RFSh.jpg)
-
-Link : http://javascriptprojects.esy.es/game/game/index.html
+![Log](https://github.com/nairuzabulhul/Hidden-Object-Game/blob/master/rsz_screenshot4.jpg?raw=true)
